@@ -10,3 +10,5 @@ def show_specific_task(request,id):
     print("id",id)
     print("id type",type(id))
     return HttpResponse(f"this is specific task {id}")
+def dashboard(request,id):
+    return HttpResponse("This is dashboard")
